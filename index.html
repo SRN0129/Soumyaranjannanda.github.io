@@ -9,23 +9,23 @@
 body{
 margin:0;
 font-family:Segoe UI,Arial,sans-serif;
-background:#0f172a;
-color:#e2e8f0;
+background:#0b1f3a; /* navy */
+color:#e5e7eb; /* off white */
 scroll-behavior:smooth;
 }
 
 nav{
 position:fixed;
 width:100%;
-background:#020617;
+background:#081426;
 padding:12px;
 text-align:center;
+box-shadow:0 2px 8px rgba(0,0,0,0.6);
 z-index:1000;
-box-shadow:0 2px 10px rgba(0,0,0,0.5);
 }
 
 nav a{
-color:#38bdf8;
+color:#f4a261; /* muted saffron */
 margin:0 15px;
 text-decoration:none;
 font-weight:500;
@@ -42,13 +42,12 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-background:linear-gradient(135deg,#020617,#0f172a,#1e293b);
+background:linear-gradient(135deg,#081426,#0b1f3a);
 }
 
 header h1{
 font-size:48px;
 margin:0;
-letter-spacing:1px;
 }
 
 header p{
@@ -63,17 +62,17 @@ padding:80px 20px;
 }
 
 h2{
-color:#38bdf8;
+color:#f4a261;
 margin-bottom:20px;
 }
 
 .card{
-background:#1e293b;
+background:#122a4a;
 padding:20px;
-border-radius:10px;
 margin:20px 0;
-box-shadow:0 6px 20px rgba(0,0,0,0.4);
-transition:transform 0.3s;
+border-radius:10px;
+box-shadow:0 6px 18px rgba(0,0,0,0.5);
+transition:0.3s;
 }
 
 .card:hover{
@@ -83,9 +82,8 @@ transform:translateY(-5px);
 footer{
 text-align:center;
 padding:30px;
-background:#020617;
+background:#081426;
 margin-top:40px;
-font-size:14px;
 }
 
 </style>
@@ -97,19 +95,22 @@ font-size:14px;
 <a href="#about">About</a>
 <a href="#projects">Projects</a>
 <a href="#experience">Experience</a>
+<a href="#skills">Skills</a>
 <a href="#certifications">Certifications</a>
 <a href="#contact">Contact</a>
 </nav>
 
 <header>
 <h1>Soumya Ranjan Nanda</h1>
-<p>Applied Physics | AI-Assisted Research | Strategy & Analytics</p>
+<p>Applied Physics | Statistical Physics | AI & Simulation | Research & Policy Analysis</p>
 </header>
 
 <section id="about">
-<h2>About Me</h2>
+<h2>About</h2>
 <div class="card">
-Final-year Applied Physics and Electronics student at Hindu College, University of Delhi. DST INSPIRE Scholar working at the intersection of science, analytics, and policy. Interested in radiation physics, AI-assisted analysis, and interdisciplinary research.
+Final-year Applied Physics and Electronics student at Hindu College, University of Delhi.  
+DST INSPIRE Scholar working across statistical physics, radiation physics, and interdisciplinary analytics.  
+Interested in complex systems, econophysics, nuclear diagnostics, and policy-oriented research.
 </div>
 </section>
 
@@ -117,28 +118,56 @@ Final-year Applied Physics and Electronics student at Hindu College, University 
 <h2>Projects</h2>
 
 <div class="card">
-<b>AI-Assisted Scientific Decision Support Platform</b>
-<p>Framework to translate complex scientific exposure inputs into structured qualitative risk categories using analytical logic and biological context modeling.</p>
+<b>Statistical Physics Approach to Financial Markets (Econophysics)</b>
+<p>
+Applied Random Matrix Theory, Ising-type modeling, Shannon entropy, and unsupervised learning to analyze systemic risk and collective behaviour in large-cap Indian equities.  
+Focused on regime transitions, entropy collapse, and interpretable modeling of complex markets.
+</p>
 </div>
 
 <div class="card">
-<b>ODOP Market & Supply Chain Analysis</b>
-<p>Structured research supporting export potential evaluation, logistics constraints, and feasibility indicators in policy context.</p>
+<b>Simulation of Electromagnetic Attenuation and FID Signal Analysis using AI-integrated NMR Modeling</b>
+<p>
+Modeled gamma/X-ray attenuation using Beer–Lambert law and simulated Free Induction Decay signals from nuclear spin relaxation.  
+Integrated ML methods to estimate T₁ and T₂ relaxation parameters from synthetic datasets.
+</p>
 </div>
 
 </section>
 
 <section id="experience">
-<h2>Experience</h2>
+<h2>Experience & Leadership</h2>
 
 <div class="card">
-<b>DST INSPIRE Scholar – Department of Science & Technology</b>
-<p>Contributing to scientific research and interdisciplinary analysis.</p>
+<b>Convener & Co-Founder — Bharatiya Chhatra Samaj</b>
+<p>National student organization focused on civic awareness, youth engagement, and academic discourse.</p>
 </div>
 
 <div class="card">
-<b>Editorial Review Specialist – Cactus Communications</b>
-<p>Quality assessment and structural review of scientific manuscripts in material science.</p>
+<b>PR and Outreach Head — Compass (Caucus, Hindu College)</b>
+<p>
+Handled outreach and communications for the annual speaker series.  
+Moderator of a session with the Danish Ambassador to India on Green Transition.  
+Part of the research team preparing the Delhi Election Report 2025.
+</p>
+</div>
+
+<div class="card">
+<b>Editorial Review Specialist — CACTUS Global</b>
+<p>Quality and structural review of scientific manuscripts in material science.</p>
+</div>
+
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+
+<div class="card">
+Python • Data Analysis • Statistical Modeling • Research Synthesis • Policy Analysis • Scientific Writing
+</div>
+
+<div class="card">
+Electrical Machines: Working knowledge of 3-phase AC and DC machines through laboratory and research work.
 </div>
 
 </section>
@@ -147,17 +176,11 @@ Final-year Applied Physics and Electronics student at Hindu College, University 
 <h2>Certifications</h2>
 
 <div class="card">
-Life, Health and Radiation – University of Sydney
+Life, Health and Radiation — University of Sydney  
+Fundamental Neuroscience for Neuroimaging — Johns Hopkins University  
+Python for Data Science, AI & Development — IBM  
+Advanced Course on Green Hydrogen — Hydrocarbon Sector Skill Council
 </div>
-
-<div class="card">
-Fundamental Neuroscience for Neuroimaging – Johns Hopkins University
-</div>
-
-<div class="card">
-Python for Data Science – IBM
-</div>
-
 </section>
 
 <section id="contact">
@@ -166,13 +189,18 @@ Python for Data Science – IBM
 <div class="card">
 Email: soumyaranjannanda82@gmail.com<br>
 Phone: +91 7735818294<br>
-LinkedIn: www.linkedin.com/in/soumya-ranjan-nanda
+LinkedIn: linkedin.com/in/soumya-ranjan-nanda
 </div>
 
 </section>
 
 <footer>
 © 2026 Soumya Ranjan Nanda
+</footer>
+
+</body>
+</html>
+
 </footer>
 
 </body>
